@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 
 import { RouterModule, Routes } from '@angular/router';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const appRoutes: Routes = [
   { 
@@ -20,7 +21,8 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
